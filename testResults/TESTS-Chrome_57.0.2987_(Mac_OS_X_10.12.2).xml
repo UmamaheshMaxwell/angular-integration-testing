@@ -1,18 +1,23 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 57.0.2987 (Mac OS X 10.12.2)" package="" timestamp="2017-09-10T17:36:36" id="0" hostname="PM04.local" tests="10" errors="0" failures="0" time="0.354">
+<testsuite name="Chrome 57.0.2987 (Mac OS X 10.12.2)" package="" timestamp="2017-09-12T13:47:51" id="0" hostname="PM04.local" tests="15" errors="0" failures="0" time="0.502">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"/>
   </properties>
-  <testcase name="VoterComponent should render total votes" time="0.15" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).VoterComponent"/>
-  <testcase name="VoterComponent should highlight upvote button if I have upvoted" time="0.035" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).VoterComponent"/>
-  <testcase name="VoterComponent should upvote when click on upvote button" time="0.021" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).VoterComponent"/>
-  <testcase name="TodosComponent should create" time="0.028" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).TodosComponent"/>
-  <testcase name="TodosComponent should load todos from the server" time="0.019" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).TodosComponent"/>
-  <testcase name="UserDetailsComponent should create" time="0.024" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UserDetailsComponent"/>
-  <testcase name="UserDetailsComponent should redirect the users to the users page after saving" time="0.022" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UserDetailsComponent"/>
-  <testcase name="UserDetailsComponent should navigate the user to not found page when user is not found" time="0.017" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UserDetailsComponent"/>
-  <testcase name="GreeterComponent should create" time="0.019" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).GreeterComponent"/>
-  <testcase name="UsersComponent should create" time="0.019" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UsersComponent"/>
+  <testcase name="VoterComponent should render total votes" time="0.154" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).VoterComponent"/>
+  <testcase name="VoterComponent should highlight upvote button if I have upvoted" time="0.036" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).VoterComponent"/>
+  <testcase name="VoterComponent should upvote when click on upvote button" time="0.024" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).VoterComponent"/>
+  <testcase name="TodosComponent should create" time="0.026" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).TodosComponent"/>
+  <testcase name="TodosComponent should load todos from the server" time="0.032" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).TodosComponent"/>
+  <testcase name="TodosComponent should load todos from the server" time="0.018" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).TodosComponent"/>
+  <testcase name="UserDetailsComponent should create" time="0.03" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UserDetailsComponent"/>
+  <testcase name="UserDetailsComponent should redirect the users to the users page after saving" time="0.035" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UserDetailsComponent"/>
+  <testcase name="UserDetailsComponent should navigate the user to not found page when user is not found" time="0.022" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UserDetailsComponent"/>
+  <testcase name="AppComponent should contain a router outlet" time="0.042" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).AppComponent"/>
+  <testcase name="routes test suite routes should have route for /user" time="0" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).routes test suite"/>
+  <testcase name="GreeterComponent should create" time="0.021" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).GreeterComponent"/>
+  <testcase name="HighlightDirective should highlight the first element with cyan" time="0.023" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).HighlightDirective"/>
+  <testcase name="HighlightDirective should highlight second element with default color" time="0.022" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).HighlightDirective"/>
+  <testcase name="UsersComponent should create" time="0.017" classname="Chrome_57_0_2987_(Mac_OS_X_10_12_2).UsersComponent"/>
   <system-out>
     <![CDATA[
 ]]>

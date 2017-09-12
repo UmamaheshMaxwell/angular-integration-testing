@@ -14,11 +14,11 @@ export class TodosComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.service.getTodos().subscribe(t => this.todos = t);
+    this.service.getTodosPromise().then(t => this.todos = t);
   }
 
   add() {
-    var newTodo = {title: '... '};
+    const newTodo = {title: '... '};
     this.service.add(newTodo).subscribe(
       t => this.todos.push(t),
       err => this.message = err);
